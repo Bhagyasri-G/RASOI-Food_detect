@@ -1,18 +1,22 @@
-# 🍽️ RASOI Food Detection using YOLOv5
+# RASOI Food Detection using YOLOv5
 
-This project uses the YOLOv5 object detection model to detect various food items from the RASOI dataset.
+This project uses the YOLOv5 object detection model to detect various food items in the RASOI dataset.
 
 ## 📊 Model Info
 - Model: YOLOv5s
-- Epochs: 25
-- Batch Size: 16
-- Image Size: 640×640
-- Framework: PyTorch
+- Training: ✅ Completed for 25 epochs
+- Validation and inference performed on a custom RASOI dataset
 
-## 📁 Project Structure
+## 📁 Inference Results
+
+📦 Final detection output images (with bounding boxes) are stored in a zip file.
+
+🔗 [Click here to download the results (exp.zip)](https://drive.google.com/file/d/1JDIpkFodY-ZvPq-73i3RE_LKmhFgFNu-/view?usp=drive_link)
+
+## 📌 Project Structure
 - **Training Results**: `runs/train/exp2/`
 - **Inference Output**: `runs/detect/exp/`
-- **📦 Download Inference ZIP**: [Click here to download `exp.zip`](https://drive.google.com/file/d/1Lqxepajqmqa2EMX59xrOXkkRheuWiSMP/view?usp=drive_link)
+- **Weights Used**: `yolov5s.pt` (pre-trained), `best.pt` (custom trained)
 
 ## 🚀 How to Run Inference
 
